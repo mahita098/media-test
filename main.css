@@ -636,6 +636,217 @@ input[type="submit"]:hover {
         width: 100px;
         height: 100px;
     }
+
+    .sagittarius-sign-middle {
+        position: absolute;
+        top:32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .sagittarius-line-middle {
+        position: absolute;
+        top:32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .aquarius-sign {
+        position: absolute;
+        top: 7%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    
+    
+    }
+    
+    .aquarius-line {
+        position: absolute;
+        top: 7%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .leo-sign {
+        position: absolute;
+        top: 42%;
+        left: 6%;
+    
+    }
+    
+    .leo-line {
+        position: absolute;
+        top: 42%;
+        left: 11%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .libra-sign {
+        position: absolute;
+        top: 28%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .libra-line {
+        position: absolute;
+        top: 28%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .cancer-sign {
+        position: absolute;
+        top: 18%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .cancer-line {
+        position: absolute;
+        top: 18%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .aries-sign {
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .aries-line {
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    
+    .capricorn-sign {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .capricorn-line {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .taurus-sign {
+        position: absolute;
+        top: 13%;
+        left: 67%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .taurus-line {
+        position: absolute;
+        top: 13%;
+        left: 67%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    
+    .scorpio-sign {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .scorpio-line {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    
+    
+    .gemini-sign {
+        position: absolute;
+        top: 8%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .gemini-line {
+        position: absolute;
+        top: 8%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    
+    .pisces-sign {
+        position: absolute;
+        top: 40%;
+        left: 82%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .pisces-line {
+        position: absolute;
+        top: 40%;
+        left: 82%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    
+    .virgo-sign {
+        position: absolute;
+        top: 18%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .virgo-line {
+        position: absolute;
+        top: 18%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .sagittarius-sign {
+        position: absolute;
+        top: 25%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .sagittarius-line {
+        position: absolute;
+        top: 25%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 
