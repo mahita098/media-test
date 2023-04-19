@@ -146,6 +146,8 @@
     transform: translate(-50%, -50%);
     color: white;
     font-size: 12px;
+    width: 35%;
+    text-align: center;
 }
 
 .form-box {
@@ -153,51 +155,98 @@
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
-    height: 30%;
-    border: 1px solid #0a0914;
-    background-color: #0a0914;
+    width: 30%;
+    height: 45%;
+    border: 1px solid #1d2150;
+    background-color: #1d2150;
+    padding:30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
 }
 
 form {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     width: 80%;
     margin: 0 auto;
     z-index: 1;
   }
 
-  .textbox {
+.textbox {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    
+    
   }
 
-  .textbox {
-    display: flex;
-    flex-direction: row;gap: 10px;
-  }
-  
-  label {
-    color: white;
-  }
-  
-  input[type="text"],
-  input[type="date"],
-  input[type="email"],
-  select {
+.textbox-dob {
+display: flex;
+flex-direction: row;
+gap: 5px;
+
+
+}
+
+input[type="date"]{
     margin-bottom: 10px;
-    padding: 5px;
     border-radius: 5px;
-    border-bottom: 2px solid orange;
-    font-size: 16px;
-    width: 70%;
+    border: transparent;
+    border-bottom: 2px solid rgb(214, 122, 68);
+    font-size: 12px;
+    width: 72%;
     background-color: transparent;
+    color: white;
+
+    }
+
+.send-btn button{
+    margin: auto;
+    color: white;
+    background-color: rgb(214, 122, 68);
+    padding:10px 20px;
+}
+  
+.form-header {
+    color: rgb(214, 122, 68)ange;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px 0px;
+
+}
+
+.form-rule {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.form-rule a {
+    color: rgb(214, 122, 68);
+    text-decoration: underline;
+}
+
+label {
+    color: white;
+    font-size: 15px;
   }
   
-  input[type="submit"] {
+input[type="text"],
+input[type="email"],
+select {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: transparent;
+    border-bottom: 2px solid rgb(214, 122, 68);
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+  
+input[type="submit"] {
     background-color: blue;
     color: white;
     padding: 10px;
@@ -205,11 +254,11 @@ form {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
+}
+
+input[type="submit"]:hover {
     background-color: lightblue;
-  }
+}
 
 
 @media screen and (max-width: 480px) {
@@ -261,8 +310,63 @@ form {
         transform: translate(-50%, -50%);
         z-index: 1;
         display: inline-block;
-        padding: 10px 40px;
+        padding: 5px 40px;
     }
+    .form-box {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 35%;
+        border: 1px solid #0d244e;
+        background-color: #0d244e;
+        padding:5px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+    }
+    
+    .form-header {
+        color: rgb(214, 122, 68);
+        font-size: 16px;
+        text-align: center;
+        font-weight: 900;
+        padding: 10px 0px;
+    
+    }
+
+    .form-rule {
+        font-size: 8px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    .send-btn button{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(214, 122, 68);
+        padding:10px 8px;
+        font-size: 10px;
+    }
+
+    .bottom-text {
+        position: absolute;
+        top: 93%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        font-size: 12px;
+        width: 75%;
+        text-align: center;
+    }
+
+
     
 
 }
@@ -309,6 +413,66 @@ form {
         width: 100%;
     }
 
+    .horoscope-button {
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .form-box {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 49%;
+        height: 42%;
+        border: 1px solid #0d244e;
+        background-color: #0d244e;
+        padding:30px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-radius: 10px;
+    }
+    
+    .form-header {
+        color: rgb(214, 122, 68);
+        font-size: 15px;
+        text-align: center;
+        font-weight: 900;
+        padding: 10px 0px;
+    
+    }
+
+    .form-rule {
+        font-size: 10px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .send-btn button{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(214, 122, 68);
+        padding:10px 15px;
+    }
+
+    .bottom-text {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 12px;
+        width: 75%;
+        text-align: center;
+    }
 
 
 }
@@ -345,8 +509,42 @@ form {
         left: 50%;
     }
 
+    .horoscope-button {
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
 
+    .form-box {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 45%;
+        height: 41%;
+        border: 1px solid #0d244e;
+        background-color: #0d244e;
+        padding:30px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+    }
+    
+    .form-header {
+        color: rgb(214, 122, 68);
+        font-size: 20px;
+        text-align: center;
+        font-weight: 900;
+        padding: 10px 0px;
+    
+    }
 
+    label {
+        font-size: 12px;
+    }
 
 }
 
@@ -363,11 +561,12 @@ form {
         position: absolute;
         top: 12%;
         left: 50%;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .text-choisissez {
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 500;
         position: absolute;
         top: 19%;
         left: 50%;
@@ -375,11 +574,59 @@ form {
     }
 
     .text-constellation {
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 900;
         position: absolute;
         top: 22%;
         left: 50%;
+    }
+
+    .horoscope-button {
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .form-box {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 35%;
+        height: 40%;
+        padding:30px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+    }
+    
+    .form-header {
+        color: rgb(214, 122, 68);
+        font-size: 20px;
+        text-align: center;
+        font-weight: 900;
+        padding: 10px 0px;
+    
+    }
+
+    .form-rule {
+        font-size: 10px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .send-btn button{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(214, 122, 68);
+        padding:10px 20px;
     }
 
 }
