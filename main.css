@@ -208,7 +208,7 @@ input[type="date"]{
 }
   
 .form-header {
-    color: rgb(214, 122, 68)ange;
+    color: rgb(214, 122, 68);
     font-size: 30px;
     text-align: center;
     font-weight: 900;
@@ -260,6 +260,227 @@ input[type="submit"]:hover {
     background-color: lightblue;
 }
 
+.sagittarius-sign-middle {
+    position: absolute;
+    top:32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.sagittarius-line-middle {
+    position: absolute;
+    top:32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.aquarius-sign {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.aquarius-line {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+
+}
+
+.leo-sign {
+    position: absolute;
+    top: 32%;
+    left: 6%;
+
+}
+
+.leo-line {
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+
+}
+
+.libra-sign {
+    position: absolute;
+    top: 34%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+
+}
+
+.libra-line {
+    position: absolute;
+    top: 34%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cancer-sign {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cancer-line {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.aries-sign {
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+
+}
+
+.aries-line {
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.capricorn-sign {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+.capricorn-line {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+.taurus-sign {
+    position: absolute;
+    top: 13%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+
+}
+
+.taurus-line {
+    position: absolute;
+    top: 13%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.scorpio-sign {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+
+}
+
+.scorpio-line {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.gemini-sign {
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gemini-line {
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.pisces-sign {
+    position: absolute;
+    top: 38%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+
+}
+
+.pisces-line {
+    position: absolute;
+    top: 38%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.virgo-sign {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+}
+
+.virgo-line {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+}
+
+.sagittarius-sign {
+    position: absolute;
+    top: 32%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.sagittarius-line {
+    position: absolute;
+    top: 32%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-width img{
+    width: 150px;
+    height: 150px;
+}
+
+.line-width img{
+    width: 100px;
+    height: 100px;
+}
+
 
 @media screen and (max-width: 480px) {
 
@@ -270,7 +491,6 @@ input[type="submit"]:hover {
         left: 1px;
         right: 3px;
         height: 97%;
-        border: 2px solid rgb(214, 122, 68);
         box-sizing: border-box;
       }
 
@@ -309,7 +529,7 @@ input[type="submit"]:hover {
 
     .clouds {
         position: absolute;
-        top: 50%;
+        top: 53%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
@@ -331,8 +551,6 @@ input[type="submit"]:hover {
         transform: translate(-50%, -50%);
         width: 80%;
         height: 36%;
-        border: 1px solid #0d244e;
-        background-color: #0d244e;
         padding:5px 10px;
         display: flex;
         flex-direction: column;
@@ -363,12 +581,9 @@ input[type="submit"]:hover {
     font-size: 8px;}
 
 
-    input[type="date"]{
-        
+    input[type="date"]{  
         font-size: 8px;
         width: 61%;
-        
-
         }
 
 
@@ -390,6 +605,36 @@ input[type="submit"]:hover {
         font-size: 10px;
         width: 75%;
         text-align: center;
+    }
+
+    
+
+    .sign-width img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .line-width img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .sagittarius-sign-middle {
+        position: absolute;
+        top:32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+    }
+
+    .sagittarius-line-middle {
+        position: absolute;
+        top:32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -450,8 +695,6 @@ input[type="submit"]:hover {
         transform: translate(-50%, -50%);
         width: 49%;
         height: 42%;
-        border: 1px solid #0d244e;
-        background-color: #0d244e;
         padding:30px 40px;
         display: flex;
         flex-direction: column;
@@ -460,7 +703,6 @@ input[type="submit"]:hover {
     }
     
     .form-header {
-        color: rgb(214, 122, 68);
         font-size: 15px;
         text-align: center;
         font-weight: 900;
@@ -481,7 +723,6 @@ input[type="submit"]:hover {
         margin-top: 10px;
         margin-bottom: 10px;
         color: white;
-        background-color: rgb(214, 122, 68);
         padding:10px 15px;
     }
 
@@ -494,6 +735,35 @@ input[type="submit"]:hover {
         font-size: 12px;
         width: 75%;
         text-align: center;
+    }
+
+    .sign-width img{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .line-width img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .sagittarius-sign-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+    }
+
+    .sagittarius-line-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
     }
 
 
@@ -546,8 +816,6 @@ input[type="submit"]:hover {
         transform: translate(-50%, -50%);
         width: 45%;
         height: 41%;
-        border: 1px solid #0d244e;
-        background-color: #0d244e;
         padding:30px 40px;
         display: flex;
         flex-direction: column;
@@ -566,6 +834,52 @@ input[type="submit"]:hover {
 
     label {
         font-size: 12px;
+    }
+
+    .sign-width img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .line-width img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .sagittarius-sign-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+    }
+
+    .sagittarius-line-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+    }
+
+    .sagittarius-sign-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+    }
+
+    .sagittarius-line-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
     }
 
 }
@@ -605,7 +919,7 @@ input[type="submit"]:hover {
 
     .horoscope-button {
         position: absolute;
-        top: 43%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         
@@ -621,13 +935,12 @@ input[type="submit"]:hover {
         padding:30px 40px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         border-radius: 10px;
     }
     
     .form-header {
-        color: rgb(214, 122, 68);
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         font-weight: 900;
         padding: 10px 0px;
@@ -635,11 +948,11 @@ input[type="submit"]:hover {
     }
 
     .form-rule {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     label {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .send-btn button{
@@ -647,8 +960,25 @@ input[type="submit"]:hover {
         margin-top: 20px;
         margin-bottom: 10px;
         color: white;
-        background-color: rgb(214, 122, 68);
         padding:10px 20px;
+    }
+
+    .sagittarius-sign-middle {
+        position: absolute;
+        top:32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+    }
+
+    .sagittarius-line-middle {
+        position: absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 70px;
     }
 
 }
