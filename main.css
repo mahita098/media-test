@@ -147,10 +147,6 @@ body {
 .selected-sign{
     padding: 20px 0;
 }
-/* 
-.selected-sign img {
-    width: 14vw;
-} */
 
 .form-box { 
     border: 1px solid #1d2150;
@@ -500,7 +496,7 @@ input[type="submit"]:hover {
     }
 
     label {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     input[type="date"] {
