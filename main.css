@@ -7,7 +7,6 @@
 
 html, body {
     width: 100%;
-    height: 100vh;
 }
 
 body {
@@ -173,9 +172,7 @@ form {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    
-    
-  }
+}
 
 .textbox-dob {
 display: flex;
@@ -501,6 +498,19 @@ input[type="submit"]:hover {
     .bottom-text {
         font-size: 10px;
     }
+
+    label {
+        font-size: 12px;
+    }
+
+    input[type="date"] {
+        width: 49%;
+        font-size: 10px;
+    }
+
+    .bottom-text {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
@@ -515,7 +525,6 @@ input[type="submit"]:hover {
     .bottom-text {
         font-size: 10px;
     }
-
 
 
 }
